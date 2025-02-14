@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nazarene Quiz Game</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="header">
+      <div id="timer">00:100</div>
+      <div id="score">Score: 0</div>
+    </div>
+    <div id="progress-bar">
+      <div id="progress"></div>
+    </div>
+    <div id="question" class="question"></div>
+    <div class="options">
+      <button class="option" onclick="checkAnswer(0)"></button>
+      <button class="option" onclick="checkAnswer(1)"></button>
+      <button class="option" onclick="checkAnswer(2)"></button>
+      <button class="option" onclick="checkAnswer(3)"></button>
+    </div>
+    <button id="hint" onclick="getHint()">Hint</button>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>

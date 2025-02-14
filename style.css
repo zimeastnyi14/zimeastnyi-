@@ -1,0 +1,217 @@
+
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #f7f7f7;
+  line-height: 1.6;
+}
+
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.hero-overlay h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-overlay p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero-overlay .btn {
+  padding: 10px 20px;
+  margin: 5px;
+  background: gold;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 50px;
+  background: white;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials */
+.carousel {
+  display: flex;
+  overflow: auto;
+  gap: 20px;
+  padding: 20px;
+  background: #f0f8ff;
+}
+
+.carousel-item {
+  flex: 0 0 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Devotional Section */
+#devotional {
+  text-align: center;
+  padding: 50px;
+  background: #fff3e0;
+  color: #333;
+}
+
+#devotional .btn {
+  padding: 10px 20px;
+  background: royalblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+  background: #e3f2fd;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  background: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #ff9800;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
